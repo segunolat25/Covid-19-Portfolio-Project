@@ -1,15 +1,10 @@
+-- Global COVID-19 Data exploration 
+
+
 /* Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types */
 
 
-
-SELECT *
-FROM PortfolioProject..CovidDeaths
-WHERE continent IS NOT NULL
-ORDER BY 3,4
-
-SELECT *
-FROM PortfolioProject..CovidVaccinations
-ORDER BY 3,4
+--OVERVIEW OF DATA
 
 -- SELECT DATA TO USE
 SELECT location, date, total_cases, new_cases, total_deaths, population
